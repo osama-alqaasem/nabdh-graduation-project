@@ -34,3 +34,6 @@ nabd/bootstrap/cache/*.php
 # OS
 .DS_Store
 Thumbs.db
+
+# AI model uploaded separately
+my_ai_api/models/heart_img.pth
