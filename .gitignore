@@ -1,0 +1,36 @@
+﻿# Flutter
+**/.dart_tool/
+**/build/
+**/.idea/
+**/android/.gradle/
+**/android/local.properties
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+
+# Laravel
+nabd/vendor/
+nabd/node_modules/
+nabd/.env
+nabd/.env.*
+!nabd/.env.example
+nabd/storage/logs/*
+nabd/storage/framework/cache/*
+nabd/storage/framework/sessions/*
+nabd/storage/framework/views/*
+nabd/bootstrap/cache/*.php
+
+# Python
+**/__pycache__/
+**/*.pyc
+**/.venv/
+**/venv/
+**/.ipynb_checkpoints/
+
+# Secrets
+**/*service-account*.json
+**/*.pem
+**/*private-key*
+
+# OS
+.DS_Store
+Thumbs.db
